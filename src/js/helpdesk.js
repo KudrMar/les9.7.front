@@ -232,7 +232,6 @@ export default class HelpDesk {
 
   dataOutput(data) {
     data.forEach((item) => {
-      //const element = new Item(item);
       this.pushItem(item);
     });
 

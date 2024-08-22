@@ -1,0 +1,168 @@
+.list {
+  width: 100%;
+  height: 100%;
+  max-width: 1000px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  max-width: 1000px;
+  display: flex;
+  justify-content: end;
+}
+
+.btn {
+  border: 1px solid black;
+  border-radius: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  background-color: white;
+}
+
+
+.input {
+  border: 1px solid black;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.item {
+  width: 95%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.item:nth-child(n + 2) {
+  border-top:hidden;
+}
+
+.true {
+  background-image: url(ff9a69d46287bf0baf0d.gif);
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 25px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.false {
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  border-radius: 25px;
+  background-color: white;
+}
+
+.delete {
+  background-image: url(c19e7d703e130016104a.gif);
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 25px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.edit {
+  background-image: url(7e506a3a355218c52551.gif);
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 25px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.modal_add {
+  position: absolute;
+  margin: auto;
+  left: 30%;
+  margin-top: 100px;
+  background-color: white;
+  display: none;
+}
+
+.modal_edit {
+  position: absolute;
+  margin: auto;
+  left: 30%;
+  margin-top: 100px;
+  background-color: white;
+  display: none;
+}
+
+.add-form {
+  width: 300px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.update-form {
+  width: 300px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.formHeader {
+  text-align: center;
+}
+
+.modal_delete {
+  position: absolute;
+  margin: auto;
+  left: 30%;
+  margin-top: 100px;
+  background-color: white;
+  display: none;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  position: fixed;
+}
+
+.description {
+  display: none;
+}
